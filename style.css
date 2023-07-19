@@ -1,0 +1,163 @@
+@media only screen and (max-width: 600px) {
+
+.stylingDiv{
+    display: flex;
+}
+.buttonStyleing {
+    height: 42px;
+    width: 30px;
+    margin-left: 4px;
+    margin-top: 10px;
+    font-size:10px;
+}
+.additionalKey1 {
+    height: 35px;
+    width: 55px;
+    margin-top: 5px;
+    background-color: #4F5FEF;
+}
+.spaceBar {
+    height: 35px;
+    width: 175px;
+    margin-left: 7px;
+    margin-top: 5px;
+    background-color: #4F5FEF;
+}
+.nextLine_btn {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 35px;
+    width: 30px;
+    margin-left: 6px;
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 600;
+    background-color: #4F5FEF;
+}
+
+.allKeys{
+    box-shadow: 0px 0px 4px 0px;
+    padding:30px 10px 10px 10px;
+    width: auto;
+    background-color:#C3C3C3;
+    border-radius: 10px;
+}
+
+.buttonStyleing1{
+height: 35px;
+width: 30px;
+margin-left: 6px;
+margin-top: 5px;
+}
+.backSpace{
+height: 35px;
+width: 40px;
+margin-left: 6px;
+margin-top: 5px;
+background-color: #4F5FEF;
+
+}
+.stylingDiv{
+    min-width: 320px;
+}
+
+/* body{
+    background-color:rgb(146, 98, 98);
+} */
+
+
+
+.particular_btn_Styleing{
+    height: 42px;
+    width: 30px;
+    margin-top: 10px;
+    text-align: right;
+    font-size:13px;
+}
+
+.textarea{
+    height: 200px;
+    margin-top: 100px;
+    margin-bottom: 220px;
+    width: 100%;
+}
+
+
+
+
+button {
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #051f16;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px #6b6b6b;
+}
+  
+/* button:hover {background-color: #3e8e41} */
+  
+button:active {
+    /* background-color: #3e8e41; */
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.row5{
+    margin-top: 6px;
+}
+
+
+/* COLORING */
+.uyir_eluthukkal{
+    background-color:#007264;
+}
+.uyirmei_eluthukkal{
+    background-color:#00B8A2 ;
+}
+.oli_eluthukkal{
+background-color: #555659;
+}
+.vadamozhi_eluthukkal{
+    background-color:#86BA66;
+}
+
+
+/* page tow */
+
+.page2Style1 {
+    height: 40px;
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.row{
+    display: flex;
+}
+.page2Style2{
+    height: 40px;
+    width: 35px;
+    margin-left: 5px;
+    margin-top: 10px; 
+}
+.keyRow3{
+    margin-left: 8px;
+}
+.keyRow4{
+    margin-left: 8px;
+}
+}
+.keyset1{
+    margin-left: 4px;
+}
+.keyset2{
+    display: none;
+}
+.keyNumber{
+    display: none;
+}
+.activeBtn{
+    background-color: #4F5FEF;
+}
