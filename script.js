@@ -53,7 +53,17 @@ numberTransaction.addEventListener("click",()=>{
 
 for(let i=0;i<btns.length;i++){
     btns[i].addEventListener("click",()=>{
-        bodys.value += btns[i].innerText
+        if (btns[i].innerText == "⌫") {
+            bodys.value = bodys.value.slice(0,-1);
+        }
+        else if (btns[i].innerText == "space") {
+            bodys.value += ' '
+        }
+        else if(btns[i].innerText == "&#x21B5"){
+            bodys.value += "\n"
+        } else{
+            bodys.value += btns[i].innerText
+        }
     })
 }
 
